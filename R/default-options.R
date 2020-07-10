@@ -124,11 +124,11 @@ check_theme_exist <- function(x, package = "hrbrthemes") {
 default_cols <- function() {
   cols <- list(
     "custom" = c("#0C4C8A", "#EF562D"),
-    "viridis" = col2Hex(viridis_pal(option = "viridis")(10)),
-    # "magma" = col2Hex(viridis_pal(option = "magma")(10)),
-    # "inferno" = col2Hex(viridis_pal(option = "inferno")(10)),
-    "plasma" = col2Hex(viridis_pal(option = "plasma")(10))#,
-    # "cividis" = col2Hex(viridis_pal(option = "cividis")(10))
+    "viridis" = col2hex(viridis_pal(option = "viridis")(10)),
+    # "magma" = col2hex(viridis_pal(option = "magma")(10)),
+    # "inferno" = col2hex(viridis_pal(option = "inferno")(10)),
+    "plasma" = col2hex(viridis_pal(option = "plasma")(10))#,
+    # "cividis" = col2hex(viridis_pal(option = "cividis")(10))
     ,
     "Blues" = brewer_pal(palette = "Blues")(9),
     "Greens" = brewer_pal(palette = "Greens")(9),
